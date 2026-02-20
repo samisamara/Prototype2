@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -1111787488356254913}
   - component: {fileID: 6044050725898765483}
   - component: {fileID: -7177275944197191656}
+  - component: {fileID: 955419025780993288}
   m_Layer: 0
   m_Name: Food_Pizza_01
   m_TagString: Untagged
@@ -169,3 +170,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4597009, y: 0.13234863, z: 0.55363166}
   m_Center: {x: 0, y: 0, z: -0.0000001937151}
+--- !u!114 &955419025780993288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4305273942114263406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b29a7a34ddb27fc428294949e959d8de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
