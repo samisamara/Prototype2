@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
 
     private float horizontal;
     public float xRange = 10;
+    public GameObject projectilePrefab;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -30,8 +31,11 @@ public class PlayerController : MonoBehaviour
     }
 
     public void Throw(InputAction.CallbackContext input) 
-    { 
-        
+    {
+        if (input.performed)
+        {
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
     }
 
 }
