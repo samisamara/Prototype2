@@ -264,8 +264,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   rb: {fileID: 328128710}
-  _moveSpeed: 10
-  xRange: 10
+  _moveSpeed: 15
+  xRange: 12
   projectilePrefab: {fileID: 4305273942114263406, guid: ba7813e32fc5b3a4ba9118f04c93e172, type: 3}
 --- !u!54 &328128710
 Rigidbody:
@@ -896,8 +896,10 @@ MonoBehaviour:
   - {fileID: 6211317215475503933, guid: 8dba3eff311c49049a121628e247d77c, type: 3}
   - {fileID: 4781499949436010518, guid: 34dbd42af1c278640974c75946f35f30, type: 3}
   - {fileID: 3501920393982781775, guid: 8b39af23771386f4fb686aef6a9aca18, type: 3}
-  spawnRangeX: 20
+  spawnRangeX: 12
   spawnPosZ: 20
+  startDelay: 2
+  startInterval: 1.5
 --- !u!4 &1802257410
 Transform:
   m_ObjectHideFlags: 0
